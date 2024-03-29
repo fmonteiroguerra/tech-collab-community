@@ -1,7 +1,7 @@
-# About CollabTech Community
-This project consists in a Blog where everyone can collab.
+# About TechCollab Community
+This project consists in a Community where everyone can collab with tech knowledge through posts.
 
-Create easily your user (no need to confirm email), begin to post and manage your posts (edit, delete)
+Create easily your user (no need to confirm email), begin to create posts and manage them (edit, delete)
 
 © Felipe Monteiro
 

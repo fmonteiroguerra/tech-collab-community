@@ -1,0 +1,165 @@
+body{
+    /* background-color: #fdfdfd; */
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-image: url('./bgcomp.jpg');
+  
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+input::placeholder,
+textarea::placeholder{
+    font-family: "Montserrat", sans-serif;
+    color: #aaa;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+a,
+nav button{
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color: black;
+    transition: .4s;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+a:hover,
+nav button:hover{
+    color: #bbb;
+}
+
+
+/* Configuração para formularios da nossa app */
+form{
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+label span{
+    margin-bottom: .3em;
+    font-weight: bold;
+    text-align: left;
+}
+
+input,
+textarea{
+    box-sizing: border-box; /* necessário para eles respeitarema a largur maxima do formulario definida mais acima */
+    border:none;
+    border-bottom: 1px solid #CCC;
+    padding: .8em 0;
+    background-color: transparent;
+}
+
+.btn{
+    background-image: linear-gradient(to bottom, #00ABBB, #004173 );   
+    box-shadow: rgba(0, 0, 0, 0.43) 2px 2px 5px 1px; 
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 120px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    transition: 0.8s;
+}
+
+.btn .btn_dark{
+    background-color: #000;
+    border-radius: 0;
+}
+
+.btn_danger{
+    background-color: #ca1d1d;
+    box-shadow: rgba(0, 0, 0, 0.43) 2px 2px 5px 1px; 
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 120px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    transition: 0.8s;
+}
+
+.btn_alert{
+    background-color: #fff200;
+    box-shadow: rgba(0, 0, 0, 0.43) 2px 2px 5px 1px; 
+    color: #4c4646;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 120px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    transition: 0.8s;
+}
+
+.btn.btn_outline{
+    background-color: transparent;
+    border-radius: 0;
+    color: #000;
+    border: 1px solid #000;
+    padding: 7px 30px
+}
+
+.btn:hover{
+    background-image: none;
+    background-color: #059e7f;
+    font-size: 1.1em;
+    color: #FFF;
+}
+
+.btn_danger:hover{
+    background-image: none;
+    color: #bcadad;
+}
+
+.btn.btn_outline:hover{
+    background-color: #000;
+}
+
+.btn.btn_danger:hover{
+    background-color: #DC3545;
+}
+
+button[disabled]{
+    background-color: #AAA;
+}
+
+button[disabled]:hover{
+    background-color: #AAA;
+}
+
+.container .error{
+    color: #721C24;
+    background-color: #F8D7DA;
+    border: 1px solid #f5c6cb;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+h1, h2{
+    color: rgb(20, 118, 148);
+}

@@ -1,0 +1,21 @@
+.login{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+    
+}
+
+.login p{
+    color: #aaa;
+}
+
+.login form{
+    max-width: 600px;
+    
+
+    @media (max-width: 1010px) {
+        width: 85vw;
+    }
+}

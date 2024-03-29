@@ -1,0 +1,85 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home img{
+
+}
+
+.home h1{
+    margin-bottom: 0;
+}
+
+.search_form {
+    width: 60%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    margin-top: 1.8em;
+}
+
+
+.buttondiv{
+    display: inline-block;
+}
+
+.btn_registerhome{
+    background-image: linear-gradient(to bottom, #c5c14c, #736200 );   
+    box-shadow: rgba(0, 0, 0, 0.43) 2px 2px 5px 1px; 
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 28px;
+    font-size: 1.2em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn_registerhome span{
+    font-size: 0.8em;
+    font-weight: normal;
+    text-transform: lowercase;
+}
+
+.btn_registerhome:hover{
+    font-size: 1.3em;
+}
+
+.search_form input{
+    margin-right: 10px;
+    width: 50%
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.noposts{
+    text-align: center;
+}
+
+.noposts p{
+    margin-bottom: 1.5em;
+}
+
+.noposts a {
+    padding: 10px 25px;
+}
+
+hr{
+    color: black;
+    border: solid 2px black ;
+}

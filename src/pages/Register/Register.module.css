@@ -1,0 +1,16 @@
+.register{
+    text-align: center;
+}
+
+.register p{
+    color: #aaa;
+}
+
+.register form{
+    max-width: 600px;
+    
+
+    @media (max-width: 1010px) {
+        width: 85vw;
+    }
+}

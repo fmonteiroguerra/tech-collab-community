@@ -6,16 +6,16 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div className={styles.about}>
-      <h2> About CollabTech Blog</h2>
-      <p>This project consists in a Blog where everyone can collab.</p>
-      <p>Create easily your user (no need to confirm email), begin to post and manage your posts (edit, delete)</p>
+      <h2> About TechCollab Community</h2>
+      <p>This project consists in a Community where everyone can collab with tech knowledge through posts.</p>
+      <p>Create easily your user (no need to confirm email), begin to create posts and manage them (edit, delete)</p>
       <p>© Felipe Monteiro</p>
       <p>
         <strong>Frontend:</strong> React (Javascript, CSS, HTML, React Hooks,
         Customized Hooks, Context API, Reat-Router-Dom, etc )
       </p>
       <p>
-        <strong>Backend:</strong> Firebase (Authentication, Database).
+        <strong>Backend:</strong> made with Firebase (Authentication, Database).
       </p>
       <Link to="/posts/create" className="btn">
         Create Post

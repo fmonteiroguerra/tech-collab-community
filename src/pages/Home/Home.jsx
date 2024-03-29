@@ -53,10 +53,10 @@ const Home = () => {
         <div className={styles.posts}>
             {loading && <p>Loading...</p>}
             {posts && posts.map((post)=>(
-                <>
+                <div key={post.id}>
             <PostDetail key={post.id} post={post} />
             
-            </>
+            </div>
             )
             )}
             {posts && posts.length === 0 &&(

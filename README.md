@@ -1,4 +1,4 @@
-# About CollabTech Blog
+# About CollabTech Community
 This project consists in a Blog where everyone can collab.
 
 Create easily your user (no need to confirm email), begin to post and manage your posts (edit, delete)

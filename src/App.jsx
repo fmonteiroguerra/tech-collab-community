@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate, ScrollRestoration } from "react-router-dom";
 
 import { AuthProvider } from './context/AuthContext.jsx'; 
 
@@ -20,6 +20,7 @@ import CreatePost from './pages/CreatePost/CreatePost.jsx';
 import Search from './pages/Search/Search.jsx';
 import Post from './pages/Post/Post.jsx';
 import EditPost from './pages/EditPost/EditPost.jsx';
+import ScrollTop from './components/ScrollTop.js';
 
 //PAGES
 
@@ -49,6 +50,7 @@ function App() {
           <BrowserRouter>
           <Navbar/>
             <div className='container'>
+              <ScrollTop />
               <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/about' element={<About />} />
